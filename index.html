@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <h1>Mood Tracker</h1>
+        <input type="text" id="moodInput" placeholder="Enter your mood (Happy, Sad, angry, relaxed, bored, party,  excited, anxious, etc.)">
+        <button id="submitMood">Submit Mood</button>
+
+        <div id="moodDisplay">
+            <h2>Your Current Mood</h2>
+            <p id="moodEmoji"></p>
+            <p id="moodQuote"></p>
+        </div>
+
+        <div id="moodHistory">
+            <h2>Mood History</h2>
+            <ul id="historyList"></ul>
+        </div>
+    </div>
+    <script src="mood.js"></script>
+
+    
+</body>
+</html>
